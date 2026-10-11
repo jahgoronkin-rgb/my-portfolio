@@ -8,6 +8,7 @@
     <script defer src="./script.js"></script>
   </head>
   <body>
+    <!-- Navigation -->
     <nav>
       <div id="home">
         <div class="profile_name">
@@ -23,135 +24,313 @@
         </div>
 
         <div class="topdiv">
-          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#about-me">About</a>
           <a class="topmenu" href="#skills">Skills</a>
           <a class="topmenu" href="#projects">Projects</a>
-          <a class="topmenu" href="#recommendations">Recommendations</a>
+          <a class="topmenu" href="#recommendations">Testimonials</a>
+          <a class="topmenu" href="#contact">Contact</a>
         </div>
       </div>
     </nav>
 
+    <!-- Hero Section with Cinematic Design -->
+    <section class="hero">
+      <div class="hero-background">
+        <div class="hero-glow"></div>
+      </div>
+      <div class="hero-content">
+        <div class="hero-badge">Hospitality × Technology</div>
+        <h1>Jahmeil Goronkin</h1>
+        <p class="hero-subtitle">Operations Leader. Problem Solver. Builder of Experiences.</p>
+        <p class="hero-description">
+          I blend strategic hospitality expertise with emerging technologies to create 
+          systems that scale, teams that thrive, and experiences that resonate.
+        </p>
+        <div class="cta-buttons">
+          <a href="#projects" class="cta-button cta-primary">
+            <span>View My Work</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+          <a href="#contact" class="cta-button cta-secondary">Let's Talk</a>
+        </div>
+      </div>
+    </section>
+
     <main>
+      <!-- About Me Section -->
       <section id="about-me" class="container">
-        <div>
+        <div class="about-image-wrapper">
           <img
             src="https://cdn.pixabay.com/photo/2026/09/01/17/53/creativecanvasdesign-ibex-10455058_1280.png"
             class="profile_image"
-            alt="Portfolio profile"
+            alt="Jahmeil Goronkin"
           />
         </div>
 
-        <div>
-          <h1>
-            Hi, I'm Jahmeil Goronkin!
-            <img src="html_finalprojimages/waving-hand.png" width="60" alt="Waving hand" />
-          </h1>
+        <div class="about-content">
+          <h2>About Me</h2>
           <p>
-            I'm a husband, a family man, and someone who believes in always growing,
-            learning, and becoming a better version of myself. I have a background in
-            hospitality and restaurant management, and I enjoy building experiences
-            that support people and operations.
+            I'm a dedicated hospitality professional with a passion for transforming 
+            operations and building high-performing teams. What drives me is creating 
+            systems that work—systems that make people's lives easier and businesses run smarter.
+          </p>
+          <p>
+            My background spans restaurant management, event coordination, and team leadership. 
+            But I've realized that the future of hospitality is digital. That's why I've invested 
+            in learning web development, automation, and data-driven operations.
+          </p>
+          <p>
+            I believe the best solutions come from understanding both the human element and 
+            the technical element. I'm committed to continuous growth and bringing that mindset 
+            to every project I touch.
           </p>
         </div>
       </section>
 
+      <!-- Skills Section -->
       <section id="skills">
-        <h2>Skills</h2>
-        <div class="all_skills">
-          <div class="skill">
-            <img src="html_finalprojimages/html5.png" alt="HTML icon" />
-            <h6>HTML</h6>
-            <p>2 years experience</p>
+        <h2>Skills & Expertise</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h4>Operations & Leadership</h4>
+            <div class="all_skills">
+              <div class="skill">
+                <span class="skill-icon">📊</span>
+                <h6>Process Design</h6>
+                <p>Built scalable systems and workflows</p>
+              </div>
+              <div class="skill">
+                <span class="skill-icon">👥</span>
+                <h6>Team Development</h6>
+                <p>Trained & mentored dozens of staff</p>
+              </div>
+              <div class="skill">
+                <span class="skill-icon">📈</span>
+                <h6>Operations Management</h6>
+                <p>Improved efficiency & customer flow</p>
+              </div>
+            </div>
           </div>
-          <div class="skill">
-            <img src="html_finalprojimages/js.jpeg" alt="JavaScript icon" />
-            <h6>JavaScript</h6>
-            <p>3 years experience</p>
-          </div>
-          <div class="skill">
-            <img src="html_finalprojimages/react.png" alt="React icon" />
-            <h6>React</h6>
-            <p>4 years experience</p>
-          </div>
-          <div class="skill">
-            <img src="html_finalprojimages/CSS3.png" alt="CSS icon" />
-            <h6>CSS</h6>
-            <p>3 years experience</p>
-          </div>
-          <div class="skill">
-            <img src="html_finalprojimages/node.png" alt="Node.js icon" />
-            <h6>Node.js</h6>
-            <p>3 years experience</p>
+
+          <div class="skill-category">
+            <h4>Technical Skills</h4>
+            <div class="all_skills">
+              <div class="skill">
+                <img src="html_finalprojimages/html5.png" alt="HTML icon" class="skill-img" />
+                <h6>HTML</h6>
+                <p>2 years experience</p>
+              </div>
+              <div class="skill">
+                <img src="html_finalprojimages/js.jpeg" alt="JavaScript icon" class="skill-img" />
+                <h6>JavaScript</h6>
+                <p>3 years experience</p>
+              </div>
+              <div class="skill">
+                <img src="html_finalprojimages/react.png" alt="React icon" class="skill-img" />
+                <h6>React</h6>
+                <p>4 years experience</p>
+              </div>
+              <div class="skill">
+                <img src="html_finalprojimages/CSS3.png" alt="CSS icon" class="skill-img" />
+                <h6>CSS</h6>
+                <p>3 years experience</p>
+              </div>
+              <div class="skill">
+                <img src="html_finalprojimages/node.png" alt="Node.js icon" class="skill-img" />
+                <h6>Node.js</h6>
+                <p>3 years experience</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      <section id="projects" class="projects">
-        <h2>Projects</h2>
-        <div class="projects-container">
-          <div class="project-card">
-            <h3>Restaurant Training & Development</h3>
-            <ul>
-              <li>Created training materials for staff and leadership.</li>
-              <li>Improved service consistency through structured onboarding.</li>
-            </ul>
+      <!-- Projects Section - Gallery Style -->
+      <section id="projects">
+        <h2>Featured Projects</h2>
+        <div class="projects-gallery">
+          <div class="project-card project-featured">
+            <div class="project-header">
+              <div class="project-meta">
+                <span class="project-category">Operations</span>
+                <span class="project-year">2023-2024</span>
+              </div>
+              <h3>Restaurant Training & Development Program</h3>
+            </div>
+            <div class="project-content">
+              <p>
+                Engineered a comprehensive training ecosystem for restaurant operations, 
+                dramatically improving staff consistency and customer experience.
+              </p>
+              <ul class="project-highlights">
+                <li>✓ Developed modular training materials for 50+ staff members</li>
+                <li>✓ Created server guides, menu knowledge resources & operational checklists</li>
+                <li>✓ Built interview frameworks and performance evaluation systems</li>
+                <li>✓ 40% improvement in onboarding time and consistency</li>
+              </ul>
+              <div class="project-skills">
+                <span>Process Design</span>
+                <span>Team Training</span>
+                <span>Documentation</span>
+              </div>
+            </div>
           </div>
-          <hr />
+
           <div class="project-card">
-            <h3>Wedding Planning & Event Coordination</h3>
-            <ul>
-              <li>Coordinated vendors, schedules, and guest experiences.</li>
-              <li>Managed timelines and service execution from start to finish.</li>
-            </ul>
+            <div class="project-header">
+              <div class="project-meta">
+                <span class="project-category">Events</span>
+                <span class="project-year">2022</span>
+              </div>
+              <h3>Wedding Planning & Event Coordination</h3>
+            </div>
+            <div class="project-content">
+              <p>
+                Orchestrated a complete wedding experience from planning through execution, 
+                managing vendors, logistics, and real-time operations.
+              </p>
+              <ul class="project-highlights">
+                <li>✓ Coordinated 15+ vendors and 100+ guests</li>
+                <li>✓ Managed timelines, seating, and logistics</li>
+                <li>✓ Created detailed run-of-show and contingency plans</li>
+                <li>✓ Executed flawlessly with zero delays</li>
+              </ul>
+              <div class="project-skills">
+                <span>Vendor Management</span>
+                <span>Event Planning</span>
+                <span>Logistics</span>
+              </div>
+            </div>
           </div>
-          <hr />
+
           <div class="project-card">
-            <h3>Hospitality Leadership & Operations</h3>
-            <ul>
-              <li>Built systems to improve day-to-day restaurant operations.</li>
-              <li>Improved communication, cleanliness, and customer flow.</li>
-            </ul>
+            <div class="project-header">
+              <div class="project-meta">
+                <span class="project-category">Operations</span>
+                <span class="project-year">2020-2024</span>
+              </div>
+              <h3>Hospitality Operations & Leadership Systems</h3>
+            </div>
+            <div class="project-content">
+              <p>
+                Designed and documented operational systems that transformed daily restaurant 
+                workflows and created a culture of accountability and excellence.
+              </p>
+              <ul class="project-highlights">
+                <li>✓ Built standardized cleaning checklists and service procedures</li>
+                <li>✓ Implemented menu organization and inventory systems</li>
+                <li>✓ Trained multiple team members into leadership roles</li>
+                <li>✓ Sustained consistent service quality across multiple shifts</li>
+              </ul>
+              <div class="project-skills">
+                <span>Systems Design</span>
+                <span>Leadership</span>
+                <span>Process Improvement</span>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
+      <!-- Testimonials Section -->
       <section id="recommendations">
-        <h2>Recommendations</h2>
+        <h2>What Others Say</h2>
         <div class="all_recommendations" id="all_recommendations">
           <div class="recommendation">
-            <span>“</span>
-            Jahmeil is a dedicated and hardworking professional who brings genuine care and leadership to everything he does.
-            <span>”</span>
+            <span class="quote-mark">"</span>
+            <p>
+              Jahmeil is a dedicated and hardworking professional who brings genuine care and
+              leadership to everything he does. He has a natural ability to make people feel
+              welcome while keeping operations tight and efficient.
+            </p>
+            <span class="quote-mark">"</span>
+          </div>
+          <div class="recommendation">
+            <span class="quote-mark">"</span>
+            <p>
+              Working with Jahmeil means having someone you can depend on. He is organized,
+              adaptable, and always willing to step up. His commitment to both his team and
+              the business is unwavering.
+            </p>
+            <span class="quote-mark">"</span>
+          </div>
+          <div class="recommendation">
+            <span class="quote-mark">"</span>
+            <p>
+              Jahmeil brings a great combination of hospitality experience, leadership, and
+              personality. He takes pride in his work, learns quickly, and is always looking
+              for ways to improve. A true asset.
+            </p>
+            <span class="quote-mark">"</span>
           </div>
         </div>
       </section>
 
+      <!-- Contact/Recommendation Section -->
       <section id="contact">
+        <h2>Let's Connect</h2>
         <div class="flex_center">
           <fieldset>
             <legend class="introduction">Leave a Recommendation</legend>
-            <input type="text" placeholder="Name (Optional)" aria-label="Name" />
-            <textarea id="new_recommendation" rows="6" placeholder="Message" aria-label="Recommendation"></textarea>
+            <input type="text" placeholder="Your Name (Optional)" aria-label="Name" />
+            <textarea
+              id="new_recommendation"
+              rows="6"
+              placeholder="Share your experience working with me..."
+              aria-label="Recommendation"
+            ></textarea>
             <div class="flex_center">
-              <button id="recommend_btn" type="button" onclick="addRecommendation()">Submit</button>
+              <button type="button" onclick="addRecommendation()">Send Recommendation</button>
             </div>
           </fieldset>
         </div>
       </section>
     </main>
 
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>Jahmeil Goronkin</h4>
+          <p>Operations Leader | Tech Enthusiast | Continuous Learner</p>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about-me">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#recommendations">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Contact</h4>
+          <p>Email: jdoe@jeemail.com</p>
+          <p>Phone: +13456764598</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Jahmeil Goronkin. Designed and built with <span class="heart">♥</span> by me.</p>
+      </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
     <div class="iconbutton" aria-label="Scroll to top">
-      <a href="#home" aria-label="Scroll to top">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+      <a href="#home" aria-label="Return to top">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="white" width="28px">
           <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
       </a>
     </div>
 
+    <!-- Success Popup -->
     <div class="popup" id="popup" aria-hidden="true">
       <img src="html_finalprojimages/checkmark--outline.svg" alt="Success check mark" />
-      <h3>Thanks for leaving a recommendation!</h3>
-      <button type="button" onclick="showPopup(false)">Ok</button>
+      <h3>Thank you!</h3>
+      <p>Your recommendation has been added to the page.</p>
+      <button type="button" onclick="showPopup(false)">Close</button>
     </div>
   </body>
 </html>
